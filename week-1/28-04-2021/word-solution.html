@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Arrays</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/animate.css">
+	<style>
+		/* CSS Here */
+		body {
+			margin: 5%;
+		}
+		.a-sentence {
+			margin: 75px 0px;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="a-sentence">
+		<span id="one">This</span>
+		<span id="two"> is </span>
+		<span id="three">a </span>
+		<span id="four">sentence</span>
+		<span id="five">lives</span>
+		<span id="six">within</span>
+		<span id="seven">many</span>
+		<span id="eight">spans</span>
+		<span id="nine">on</span>
+		<span id="ten">an</span>
+		<span id="eleven">html</span>
+		<span id="twelve">page.</span>
+	</h1>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Firstname</th>
+				<th>Lastname</th>
+				<th>Movie</th>
+				<th>Age</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- Data Goes Here -->
+			<tr>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Gump Forrest</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Gump Forrest</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Gump Forrest</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Gump Forrest</td>
+				<td>40</td>
+			</tr>
+		</tbody>
+	</table>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+	<script>
+
+	// 1. Make a function to change the months
+	function placeMonthsOnPage () {
+		var arrayItem = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+		var getOne = document.getElementById('one');
+		getOne.textContent = arrayItem[0];
+		var getOne = document.getElementById('two');
+		getOne.textContent = arrayItem[1];
+		var getOne = document.getElementById('three');
+		getOne.textContent = arrayItem[2];
+		var getOne = document.getElementById('four');
+		getOne.textContent = arrayItem[3];
+		var getOne = document.getElementById('five');
+		getOne.textContent = arrayItem[4];
+		var getOne = document.getElementById('six');
+		getOne.textContent = arrayItem[5];
+		var getOne = document.getElementById('seven');
+		getOne.textContent = arrayItem[6];
+		var getOne = document.getElementById('eight');
+		getOne.textContent = arrayItem[7];
+		var getOne = document.getElementById('nine');
+		getOne.textContent = arrayItem[8];
+		var getOne = document.getElementById('ten');
+		getOne.textContent = arrayItem[9];
+		var getOne = document.getElementById('eleven');
+		getOne.textContent = arrayItem[10];
+		var getOne = document.getElementById('twelve');
+		getOne.textContent = arrayItem[11];
+	} // placeMonthsOnPage ENDS
+
+	// 2. Call the function
+	placeMonthsOnPage();
+
+	</script>
+</body>
+</html>
